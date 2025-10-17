@@ -32,17 +32,17 @@ const FrequentQuickLinks = () => {
       content: "Access all services provided by our organization.",
     },
     { 
-      icon: <FaUsers className="mx-auto"/>, 
+      icon: <GoFileDirectoryFill className="mx-auto"/>, 
       label: "Directory",
       content: "Find contact information for all employees and departments within the organization."
     },
     { 
-      icon: <GrAnnounce className="mx-auto"/>, 
+      icon: <SlOrganization className="mx-auto"/>, 
       label: "Org Chart",
       content: "Submit your ideas and suggestions to help improve our workplace and processes."
     },
     { 
-      icon: <MdOutlineInventory2 className="mx-auto"/>, 
+      icon: <TbBulbFilled className="mx-auto"/>, 
       label: "Suggestions",
       url: "https://apps.hayleysfentons.com/travel-system/employee/dashboard.php",
       content: "Find answers to commonly asked questions about policies, procedures, and company resources."

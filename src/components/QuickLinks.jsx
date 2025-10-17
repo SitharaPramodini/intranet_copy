@@ -47,8 +47,8 @@ const QuickLinks = () => {
       content: "Submit your ideas and suggestions to help improve our workplace and processes."
     },
     {
-      icon: <MdOutlineInventory2 className="mx-auto" />,
-      label: "My Inventory",
+      icon: <GiConversation className="mx-auto" />,
+      label: "FAQ",
       content: "Find answers to commonly asked questions about policies, procedures, and company resources."
     },
     {
@@ -58,8 +58,8 @@ const QuickLinks = () => {
       content: "Schedule meetings, book conference rooms, and manage your calendar appointments."
     },
     {
-      icon: <GrDeliver className="mx-auto" />,
-      label: "Supply chain",
+      icon: <GrResources className="mx-auto" />,
+      label: "Resources",
       // badge: 2,
       content: "View internal job postings, refer candidates, and track your job applications."
     },
