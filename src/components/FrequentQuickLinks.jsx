@@ -18,7 +18,8 @@ import { MdCardTravel } from "react-icons/md";
 import { MdFlight } from "react-icons/md";
 import { LuBadgeCheck } from "react-icons/lu";
 import { RiBankLine } from "react-icons/ri";
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import { BsCashCoin } from "react-icons/bs";
 
 const FrequentQuickLinks = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -26,7 +27,7 @@ const FrequentQuickLinks = () => {
   
   const links = [
     { 
-      icon: <FaHandHoldingDollar className="mx-auto"/>, 
+      icon: <BsCashCoin className="mx-auto"/>, 
       label: "Cash App",
       // badge: 1,
       content: "Access all services provided by our organization.",

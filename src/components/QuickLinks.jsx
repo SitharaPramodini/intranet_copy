@@ -53,7 +53,7 @@ const QuickLinks = () => {
     },
     {
       icon: <RiCalendarTodoFill className="mx-auto" />,
-      label: "Bookings",
+      label: "Appointments",
       // badge: 5,
       content: "Schedule meetings, book conference rooms, and manage your calendar appointments."
     },
